@@ -7,3 +7,15 @@ services:
     envVars:
       - key: FLASK_ENV
         value: production
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_DB_URL
+        sync: false
+      - key: SUPABASE_KEY
+        sync: false
+      - key: GEMINI_API_KEY_1
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
